@@ -23,7 +23,7 @@
 	List<String> subjects = qbLoader.qb.getSubject();
 %>
 
-<h1 class="title">Online MCQ Platform (Github)(Dev1)</h1>
+<h1 class="title">Online MCQ Platform (Github)(Dev1)(Dev1-2nd try)</h1>
 	<div class="card-container">
 	<% 	for(String subjectName: subjects){ %>	
 			<div class="card" onclick="document.location.href='<%=url %>?url=LoadSubjectQuestions?subject=<%= subjectName %>'">
